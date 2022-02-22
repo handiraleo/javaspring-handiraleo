@@ -7,7 +7,7 @@ public class main {
       System.out.println("dor");
       System.out.println("dir");
       System.out.println("alterra");
-      System.out.println("wakwaw");
+      System.out.println("wakwaw");s
       System.out.println("featureA");
       
     
