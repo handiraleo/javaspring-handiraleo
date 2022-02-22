@@ -5,6 +5,7 @@ public class main {
       System.out.println("Hai");
       System.out.println("aku leo");
       System.out.println("dor");
+      System.out.println("dir");
     
     }
   
