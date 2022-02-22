@@ -6,6 +6,7 @@ public class main {
       System.out.println("aku leo");
       System.out.println("dor");
       System.out.println("dir");
+      System.out.println("alterra");
     
     }
   
