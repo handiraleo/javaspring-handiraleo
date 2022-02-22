@@ -6,11 +6,10 @@ public class main {
       System.out.println("aku leo");
       System.out.println("dor");
       System.out.println("dir");
-<<<<<<< Updated upstream
       System.out.println("alterra");
-=======
       System.out.println("wakwaw");
->>>>>>> Stashed changes
+      System.out.println("featureA");
+      
     
     }
   
