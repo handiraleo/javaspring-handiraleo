@@ -8,11 +8,8 @@ public class main {
       System.out.println("dir");
       System.out.println("alterra");
       System.out.println("wakwaw");
-<<<<<<< HEAD
-=======
       System.out.println("featureA");
       
->>>>>>> featureA
     
     }
   
