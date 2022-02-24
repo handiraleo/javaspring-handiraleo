@@ -1,4 +1,4 @@
-public class main {
+public class halo {
 
     public static void main(String[] args) {
   
@@ -7,10 +7,10 @@ public class main {
       System.out.println("dor");
       System.out.println("dir");
       System.out.println("alterra");
-      System.out.println("wakwaw");s
+      System.out.println("wakwaw");
       System.out.println("featureA");
       
     
     }
   
-  }
+  } 
