@@ -1,4 +1,9 @@
+import java.beans.IndexedPropertyDescriptor;
 import java.util.Scanner;
+
+import javax.print.attribute.standard.MediaName;
+import javax.swing.plaf.InputMapUIResource;
+import javax.swing.plaf.UIResource;
 public class bilprima {
     public static void main(String args[])
     {
@@ -23,3 +28,5 @@ public class bilprima {
         }  
    }
 }
+
+
