@@ -14,7 +14,7 @@ public class bilprima {
         System.out.print("Masukin Angkanya : ");
         bil=input.nextInt();
    
-        System.out.println("hasilnya adalah");
+        System.out.println("hasilnya adalahh");
         for (int i=2; i<=bil; i++){
             if (bil%i==0){
                 cek++;
@@ -28,5 +28,4 @@ public class bilprima {
         }  
    }
 }
-
 
