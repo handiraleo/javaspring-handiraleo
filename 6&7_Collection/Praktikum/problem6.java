@@ -1,5 +1,5 @@
 import java.util.*;
-public class problem6 {
+public class Problem6 {
      
     public static int maxSum(int arr[], int n, int k)
     {
@@ -32,3 +32,4 @@ public class problem6 {
         System.out.println(maxSum(arr, n, k));
     }
 }
+
