@@ -1,21 +1,29 @@
-public static void main(String[] args) {
-    System.out.println(ArrayMerge(
-            List.of("kazuya", "jin", "lee"),
-            List.of("kazuya", "feng")));
-}
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
-static List<String> ArrayMerge(List<String> arrayA, List<String> arrayB) {
-
-    HashSet<String> mapper = new HashSet<>();
-
-    for (var arrA : arrayA) {
-        mapper.add(arrA);
+public class Problem2 {
+    public static void main(String[] args) {
+        System.out.println(AngkaMunculSekali("76523752"));
     }
 
-    for (var arrB : arrayB) {
-        mapper.add(arrB);
+    static List<Integer> AngkaMunculSekali(String angka) {
+        HashMap<String, Integer> angkaMap = new HashMap<>();
+        List<Integer> angkaResult = new ArrayList<>();
+        List<String> angkaList = new ArrayList<String>(Arrays.asList(angka.split("")));
+        System.out.println(angkaList);
+
+        for (var v: angkaList) {
+            angkaMap.put(v, (angkaMap.get(v) == null? 0:angkaMap.get(v))  +1);
+            System.out.println(angkaMap);
+        }
+        for (var v: angkaMap.keySet()) {
+            if (angkaMap.get(v) == 1) {
+                angkaResult.add(Integer.parseInt(v));
+                System.out.println(angkaResult);
+            }
+        }
+        return angkaResult;
     }
 
-    List<String> result = new ArrayList<>(mapper);
-    return result;
 }
