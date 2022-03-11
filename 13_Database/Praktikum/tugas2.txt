@@ -1,0 +1,32 @@
+TUGAS 2
+
+1.membuat schema/database Mysql
+- CREATE DATABASE alta_online_shop;
+
+2.menunjukan database yang ada
+
+-SHOW DATABASES;
+
+3.memindahkan ke databases alta_online shop
+- USE alta_online_shop;
+
+4.membuat table user dll beserta field pada schema alta_online_shop
+- CREATE TABLE user/entitas lainnya (
+	--> id INT NOT NULL PRIMARY KEY,
+	-->created_at TIMESTAMP
+	-->Updated_at TIMESTAMP);
+
+5.menambahkan tabel kurir
+- CREATE TABLE kurir (
+	--> id INT NOT NULL PRIMARY KEY,
+	-->created_at TIMESTAMP
+	-->Updated_at TIMESTAMP);
+
+6.merubah nama tabel kurir
+- ALTER TABLE kurir RENAME shipping;
+
+7.menghapus tabel shipping
+- DROP TABLE shipping;
+
+8.menunjukan isi field pada table user/entitas lainnya
+- DESCRIBE user/entitas lainnya ;
