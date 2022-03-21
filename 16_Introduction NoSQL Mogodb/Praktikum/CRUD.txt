@@ -1,0 +1,23 @@
+## membuat CRUD di mongodb
+
+1.create table operator,product,type product,payment,transaction,user
+perintah :
+db.createCollection('namatabel') // misal tabel user
+db.user.insert ({nama : 'jaka', gender :'laki'})
+
+2.menampilkan user berkelamin laki-laki
+db.user.find({gender :'laki-laki'})
+
+3.menghitung jumlah laki2 pada collection user
+db.user.find({gender :'laki-laki'}).count()
+
+4. mengurutkan abjad nama user
+db.user.find().sort(nama :1)
+
+5.mengubah data dengan type id 1 menjadi product dummy
+db.product.update({type id:1},{$set{nama :'product dummy'}})
+
+6.menghapus data pada tabel product dengan id : 1
+db.product.remove(typeID:1)
+
+
